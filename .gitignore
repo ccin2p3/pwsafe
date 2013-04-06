@@ -1,0 +1,15 @@
+.deps/
+Makefile
+config.h
+config.log
+config.status
+debian/files
+debian/pwsafe.debhelper.log
+debian/pwsafe.substvars
+debian/pwsafe/
+pwsafe
+pwsafe.1
+pwsafe.lsm
+pwsafe.o
+pwsafe.spec
+stamp-h
