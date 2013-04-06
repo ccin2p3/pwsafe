@@ -1,3 +1,12 @@
+pwsafe (0.2.0-4) unstable; urgency=low
+
+  * New maintainer, for personal usage.
+  * Added links to github in debian/control
+  * Bumped Debian compat level.
+  * Added build-dependency upon libncurses-dev
+
+ -- Steve Kemp <steve@steve.org.uk>  Sat, 6 Apr 2013 08:44:08 +0000
+
 pwsafe (0.2.0-3) unstable; urgency=low
 
   * New maintainer. Closes: #419080
