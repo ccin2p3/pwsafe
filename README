@@ -1,3 +1,17 @@
+
+GitHub: https://github.com/skx/pwsafe
+
+  pwsafe is a password-storage database utility I use for storing my
+ login details.  It was available in the Squeeze release of Debian
+ GNU/Linux, but not for the Wheezy releases.
+
+  This repository allows me to build my own release for personal
+ usage.
+
+Original README follows:
+
+
+
 	pwsafe - commandline tool compatible with Counterpane's Passwordsafe
 
 
