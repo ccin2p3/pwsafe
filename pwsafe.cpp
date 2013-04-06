@@ -3276,7 +3276,7 @@ void secalloc::init() {
   
     if (pagesize == (size_t)-1 || pagesize == 0) {
       const char errstr[] = "Error: can't compute kernel MMU page size\n";
-      write(STDERR_FILENO, errstr, sizeof(errstr)); // at the point when init() is called, stderr is not necessarily setup
+      size_t wrote = write(STDERR_FILENO, errstr, sizeof(errstr)); // at the point when init() is called, stderr is not necessarily setup
       throw FailEx();
     }
   }
