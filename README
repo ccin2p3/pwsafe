@@ -1,5 +1,7 @@
 
-GitHub: https://github.com/skx/pwsafe
+Source:   https://github.com/skx/pwsafe
+Packages: http://packages.steve.org.uk/pwsafe/
+
 
   pwsafe is a password-storage database utility I use for storing my
  login details.  It was available in the Squeeze release of Debian
