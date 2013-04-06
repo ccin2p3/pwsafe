@@ -66,7 +66,7 @@ Edit an entry.
 .B  \-\-delete=NAME
 Delete an entry from database.
 .TP 
-If no command is given, an interactive mode is entered.
+If no command is given, an interactive mode is entered, if this mode was available at compile time.
 .SH "OPTIONS"
 \fBpwsafe\fP accepts the following options:
 .TP 
