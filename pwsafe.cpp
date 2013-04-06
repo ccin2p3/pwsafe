@@ -1684,7 +1684,7 @@ static secstring enter_password(const char* prompt1, const char* prompt2) {
 
 // print txt to outfile / copy to X selection
 static void emit(const secstring& name, const char*const what, const secstring& txt) {
-  if (arg_echo) {
+  if (arg_echo || ( getenv( "DISPLAY" ) == NULL ) ) {
     if (arg_verbose >= 0 && isatty(fileno(outfile)))
       fprintf(outfile,"%s for %s: ", what, name.c_str()); // if we are printing to the tty then we can be more verbose
     fprintf(outfile,"%s\n", txt.c_str());
