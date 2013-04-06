@@ -2,7 +2,7 @@ Source: pwsafe
 Section: utils
 Priority: optional
 Maintainer: Steve Kemp <steve@steve.org.uk>
-Build-Depends: debhelper (>= 8), autotools-dev, libreadline-dev, libssl-dev, libxmu-dev, x11proto-core-dev, libx11-dev, libncurses-dev, dpkg-dev
+Build-Depends: debhelper (>= 8), autotools-dev, libreadline-dev, libssl-dev, libxmu-dev, x11proto-core-dev, libx11-dev, libncurses-dev, dpkg-dev ( >= 1.16.10 )
 Standards-Version: 3.9.4
 Homepage: https://github.com/skx/pwsafe
 Vcs-Browser: https://github.com/skx/pwsafe
