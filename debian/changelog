@@ -1,4 +1,4 @@
-pwsafe (0.2.0-4) unstable; urgency=low
+pwsafe (0.2.1) unstable; urgency=low
 
   * New maintainer, for personal usage.
   * Added links to github in debian/control
